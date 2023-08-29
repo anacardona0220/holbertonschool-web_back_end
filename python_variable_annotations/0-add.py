@@ -2,7 +2,7 @@
 '''add funtion'''
 
 
-def add(a: float, b: float) -> str:
+def add(a: float, b: float) -> float:
     '''return add'''
     resultado = a + b
     return resultado
