@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" pagination project"""
+"""pagination project"""
 
 from typing import Tuple, List, Dict, Any
 import csv
@@ -58,4 +58,3 @@ class Server:
             "prev_page": prev_page,
             "total_pages": total_pages
         }
-    
