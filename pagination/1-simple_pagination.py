@@ -40,4 +40,3 @@ class Server:
             return res_list
         res_list = self.dataset()
         return res_list[start:end]
-    
