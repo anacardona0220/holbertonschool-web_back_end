@@ -16,3 +16,4 @@ export default class Airport {
       return this._code;
     }
   }
+  
