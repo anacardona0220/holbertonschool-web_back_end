@@ -16,11 +16,11 @@ Type annotations are a way to explicitly specify the expected types of variables
 ## Variable Type Annotations
 In this section, you will find examples of how to use type annotations to specify the types of variables:
 
-'''
+```
 name: str = "Alice"
 age: int = 30
 is_student: bool = True
-'''
+```
 
 Function Signature Annotations
 Type annotations can also be applied to function signatures to indicate the expected types of parameters and return values:
