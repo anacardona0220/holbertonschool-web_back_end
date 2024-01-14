@@ -24,16 +24,16 @@ is_student: bool = True
 
 Function Signature Annotations
 Type annotations can also be applied to function signatures to indicate the expected types of parameters and return values:
-'''
+```
 def greet(name: str) -> str:
     return f"Hello, {name}!"
-'''
+```
 
 Understanding Duck Typing
 Duck typing is a concept in programming where the type or the class of an object is less important than the methods and properties it exposes. If an object walks like a duck and quacks like a duck, it's considered a duck.
 
 For example:
-'''
+```
 class Dog:
     def speak(self):
         return "Woof!"
@@ -50,15 +50,16 @@ cat = Cat()
 
 pet_speak(dog)  # Output: "Woof!"
 pet_speak(cat)  # Output: "Meow!"
-'''
+```
 
 ## Validating Code with Mypy
 Mypy is a static type checker for Python that can be used to analyze your code and catch type-related errors before runtime. To use mypy, first, install it:
-'''
+```
 pip install mypy
-'''
+```
 Then, run mypy to check your code:
-'''
+```
 mypy your_code.py
-'''
+```
 Make sure to replace your_code.py with the actual filename.
+
